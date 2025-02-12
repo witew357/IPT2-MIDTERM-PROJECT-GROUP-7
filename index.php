@@ -53,6 +53,7 @@ include('partials\sidebar.php');
                     <td>2016-05-25</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -64,6 +65,7 @@ include('partials\sidebar.php');
                     <td>2014-12-05</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -75,6 +77,7 @@ include('partials\sidebar.php');
                     <td>2011-08-12</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -86,6 +89,7 @@ include('partials\sidebar.php');
                     <td>2012-06-11</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -97,6 +101,7 @@ include('partials\sidebar.php');
                     <td>2011-04-19</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -108,6 +113,7 @@ include('partials\sidebar.php');
                     <td>2016-05-25</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -119,6 +125,7 @@ include('partials\sidebar.php');
                     <td>2014-12-05</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -130,6 +137,7 @@ include('partials\sidebar.php');
                     <td>2011-08-12</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -141,6 +149,7 @@ include('partials\sidebar.php');
                     <td>2012-06-11</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
@@ -152,6 +161,7 @@ include('partials\sidebar.php');
                     <td>2011-04-19</td>
                     <td class="d-flex justify-content-center">
                       <button class="btn btn-success btn-sm mx-1">Edit</button>
+                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information">View</button>
                       <button class="btn btn-danger btn-sm mx-1">Delete</button>
                     </td>
                   </tr>
