@@ -40,7 +40,7 @@ include('partials\sidebar.php');
                     <th scope="col">Name</th>
                     <th scope="col">Position</th>
                     <th scope="col">Age</th>
-                    <th scope="col">Start Date</th>
+                    <th scope="col">Address</th>
                     <th scope="col" class="text-center">Action</th>
                   </tr>
                 </thead>
