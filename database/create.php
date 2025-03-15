@@ -3,12 +3,12 @@ session_start();
 include('database.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $variant = $_POST['variant'];
-    $color = $_POST['color'];
-    $storage = $_POST['storage'];
-    $price = $_POST['price'];
+    $Variants = $_POST['Variants'];
+    $Color = $_POST['Color'];
+    $Storage = $_POST['Storage'];
+    $Price = $_POST['Price'];
 
-    $sql = "INSERT INTO iphones (variant, color, storage, price) VALUES ('$variant', '$color', '$storage', '$price')";
+    $sql = "INSERT INTO iphone (Variants, Color, Storage, Price) VALUES ('$Variants', '$Color', '$Storage', '$Price')";
 
     if (mysqli_query($conn, $sql)) {
         $_SESSION['status'] = "created";
