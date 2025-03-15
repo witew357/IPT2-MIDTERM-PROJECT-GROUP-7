@@ -31,7 +31,7 @@
                   <h5 class="card-title">iPhone List</h5>
                 </div>
                 <div>
-                  <button class="btn btn-primary btn-sm mt-4 mx-3">Add Employee</button>
+                  <button class="btn btn-primary btn-sm mt-4 mx-3">Add List</button>
                 </div>
               </div>
 
@@ -48,128 +48,38 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Brandon Jacob</td>
-                    <td>Designer</td>
-                    <td>28</td>
-                    <td>2016-05-25</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Bridie Kessler</td>
-                    <td>Developer</td>
-                    <td>35</td>
-                    <td>2014-12-05</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Ashleigh Langosh</td>
-                    <td>Finance</td>
-                    <td>45</td>
-                    <td>2011-08-12</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Angus Grady</td>
-                    <td>HR</td>
-                    <td>34</td>
-                    <td>2012-06-11</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Raheem Lehner</td>
-                    <td>Dynamic Division Officer</td>
-                    <td>47</td>
-                    <td>2011-04-19</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Brandon Jacob</td>
-                    <td>Designer</td>
-                    <td>28</td>
-                    <td>2016-05-25</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Bridie Kessler</td>
-                    <td>Developer</td>
-                    <td>35</td>
-                    <td>2014-12-05</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Ashleigh Langosh</td>
-                    <td>Finance</td>
-                    <td>45</td>
-                    <td>2011-08-12</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td>Angus Grady</td>
-                    <td>HR</td>
-                    <td>34</td>
-                    <td>2012-06-11</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">5</th>
-                    <td>Raheem Lehner</td>
-                    <td>Dynamic Division Officer</td>
-                    <td>47</td>
-                    <td>2011-04-19</td>
-                    <td class="d-flex justify-content-center">
-                      <button class="btn btn-success btn-sm mx-1">Edit</button>
-                      <button class="btn btn-primary btn-sm mx-1" title="View Employee Information" data-bs-toggle="modal" data-bs-target="#editInfo">View</button>
-                      <button class="btn btn-danger btn-sm mx-1">Delete</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+    <?php if ($result->num_rows > 0): ?>
+      <?php while($row = $result->fetch_assoc()): ?>
+        <tr>
+          <td><?= $row['ID'] ?></td>
+          <td><?= $row['Variants'] ?></td>
+          <td><?= $row['Colors'] ?></td>
+          <td><?= $row['Storage'] ?></td>
+          <td><?= $row['Price'] ?></td>
+          <td class="text-center">
+            <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#viewIphoneModal" 
+                    data-id="<?= $row['ID'] ?>"
+                    data-Variants="<?= $row['Variants'] ?>"
+                    data-Colors="<?= $row['Colors'] ?>"
+                    data-Storage="<?= $row['Storage'] ?>"
+                    data-Price="<?= $row['Price'] ?>">View</button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editIphoneModal" 
+                    data-id="<?= $row['ID'] ?>"
+                    data-Variants="<?= $row['Variants'] ?>"
+                    data-Colors="<?= $row['Colors'] ?>"
+                    data-Storage="<?= $row['Storage'] ?>"
+                    data-Price="<?= $row['Price'] ?>">Edit</button>
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteIphoneModal" data-id="<?= $row['ID'] ?>">Delete</button>
+          </td>
+        </tr>
+      <?php endwhile; ?>
+    <?php else: ?>
+      <tr>
+        <td colspan="6" class="text-center">No record found</td>
+      </tr>
+    <?php endif; ?>
+  </tbody>
+</table>
               <!-- End Default Table Example -->
             </div>
             <div class="mx-4">
