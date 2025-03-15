@@ -1,7 +1,7 @@
 <?php
   include('partials\header.php');
   include('partials\sidebar.php');
-
+  include('database\database.php');
 
   // Your PHP BACK CODE HERE
 
