@@ -10,7 +10,7 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Employee Information Management System</h1>
+      <h1>iPhone DBMS</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -28,7 +28,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between">
                 <div>
-                  <h5 class="card-title">Default Table</h5>
+                  <h5 class="card-title">iPhone List</h5>
                 </div>
                 <div>
                   <button class="btn btn-primary btn-sm mt-4 mx-3">Add Employee</button>
@@ -39,11 +39,11 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Position</th>
-                    <th scope="col">Age</th>
-                    <th scope="col">Address</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Variants</th>
+                    <th scope="col">Colors</th>
+                    <th scope="col">Storage</th>
+                    <th scope="col">Price</th>
                     <th scope="col" class="text-center">Action</th>
                   </tr>
                 </thead>
@@ -195,7 +195,7 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="editInfoLabel">Employee Information</h1>
+              <h1 class="modal-title fs-5" id="editInfoLabel">iPhone Information</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
