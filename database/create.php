@@ -3,14 +3,12 @@ session_start();
 include('database.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $firstname = $_POST['firstname'];
-    $middlename = $_POST['middlename'];
-    $lastname = $_POST['lastname'];
-    $position = $_POST['position'];
-    $age = $_POST['age'];
-    $address = $_POST['address'];
+    $variant = $_POST['variant'];
+    $color = $_POST['color'];
+    $storage = $_POST['storage'];
+    $price = $_POST['price'];
 
-    $sql = "INSERT INTO employees (first_name, middle_name, last_name, position, age, address) VALUES ('$firstname', '$middlename', '$lastname', '$position', '$age', '$address')";
+    $sql = "INSERT INTO iphones (variant, color, storage, price) VALUES ('$variant', '$color', '$storage', '$price')";
 
     if (mysqli_query($conn, $sql)) {
         $_SESSION['status'] = "created";
