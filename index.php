@@ -120,7 +120,8 @@
     </section>
 
   </main><!-- End #main -->
-  <!-- Add Iphone Modal -->
+
+  <!-- Modal For Create -->
   <div class="modal fade" id="addIphoneModal"  tabindex="-1" aria-labelledby="addIphoneModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -138,24 +139,7 @@
               <option value="iPhone16ProMax">iPhone 16 Pro Max</option>
             </select>
           </div>
-          <div class="form-group">
-            <label for="Colors">Colors:</label>
-            <select class="form-control" id="Colors" name="Colors" required>
-            <option value="Black">iPhone16-Black</option>
-              <option value="White">iPhone16-White</option>
-              <option value="Teal">iPhone16-Teal</option>
-              <option value="Pink">iPhone16-Pink</option>
-              <option value="Ultramarine">iPhone16-Ultramarine</option>
-              <option value="Black Titanium">iPhone16Pro-Black Titanium</option>
-              <option value="White Titanium">iPhone16Pro-White Titanium</option>
-              <option value="Desert Titanium">iPhone16Pro-Desert Titanium</option>
-              <option value="Natural Titanium">iPhone16Pro-Natural Titanium</option>
-              <option value="Black Titanium">iPhone16ProMax-Black Titanium</option>
-              <option value="White Titanium">iPhone16ProMax-White Titanium</option>
-              <option value="Desert Titanium">iPhone16ProMax-Desert Titanium</option>
-              <option value="Natural Titanium">iPhone16ProMax-Natural Titanium</option>
-            </select>
-            
+
 <?php
 include('partials\footer.php');
 ?>
