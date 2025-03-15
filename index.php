@@ -10,7 +10,7 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>iPhone DBMS</h1>
+      <h1>Ordered iPhone</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -28,10 +28,10 @@
             <div class="card-body">
               <div class="d-flex justify-content-between">
                 <div>
-                  <h5 class="card-title">iPhone List</h5>
+                  <h5 class="card-title">Ordered List</h5>
                 </div>
                 <div>
-                  <button class="btn btn-primary btn-sm mt-4 mx-3">Add List</button>
+                  <button class="btn btn-primary btn-sm mt-4 mx-3">Add Order</button>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@
                     <th scope="col" class="text-center">Action</th>
                   </tr>
                 </thead>
-                <tbody>
+  <tbody>
     <?php if ($result->num_rows > 0): ?>
       <?php while($row = $result->fetch_assoc()): ?>
         <tr>
@@ -80,7 +80,7 @@
     <?php endif; ?>
   </tbody>
 </table>
-              <!-- End Default Table Example -->
+
             </div>
             <div class="mx-4">
               <nav aria-label="Page navigation example">
