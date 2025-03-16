@@ -220,6 +220,29 @@
   </div>
 </div>
 
+<!-- Delete Student Modal -->
+<div class="modal fade" id="deleteIphoneModal" tabindex="-1" aria-labelledby="deleteIphoneModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteIphoneModalLabel">Delete Record</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to delete this record?</p>
+      </div>
+      <div class="modal-footer">
+        <form id="delete-iphone-form" method="post" action="database/delete.php">
+          <input type="hidden" name="id" id="delete-id">
+          <input type="hidden" name="current_page" value="<?= $page ?>">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-danger">Delete</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Include Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
