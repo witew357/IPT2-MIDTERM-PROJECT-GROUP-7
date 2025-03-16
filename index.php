@@ -314,6 +314,31 @@ if (!$result) {
             </select>
           </div>
 
+          <div class="col-md-6 mb-3">
+            <label for="edit-Price" class="form-label">Price</label>
+              <select class="form-control" class="form-control" id="Price" name="Price" required>
+              <option value="₱45,265">iPhone16 128GB-₱45,265</option>
+              <option value="₱50,970">iPhone16 256GB-₱50,970</option>
+              <option value="₱62,260">iPhone16 512GB-₱62,260</option>
+              <option value="₱56,749">iPhone16Pro 128GB-₱56,749</option>
+              <option value="₱62,260">iPhone16Pro 256B-₱62,260</option>
+              <option value="₱73,550">iPhone16Pro 512GB-₱73,550</option>
+              <option value="₱84,840">iPhone16Pro 1TB-₱84,840</option>
+              <option value="₱67,900">iPhone16ProMax 256B-₱67,900</option>
+              <option value="₱79,190">iPhone16ProMax 512GB-₱79,190</option>
+              <option value="₱90,480">iPhone16ProMax 1TB-₱90,480</option>
+              </select>
+            </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Update</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>          
 
 <!--  Modal for Delete-->
 <div class="modal fade" id="deleteIphoneModal" tabindex="-1" aria-labelledby="deleteIphoneModalLabel" aria-hidden="true">
