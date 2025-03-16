@@ -181,6 +181,27 @@ h6 {
 }
 
 /* Light Backgrounds */
+
+.custom-view-btn{
+  background-color: #355E3B !important; 
+  border-color: #355E3B !important;
+  color: white !important; 
+}
+.custom-edit-btn {
+  background-color: #8A9A5B !important; 
+  border-color: #8A9A5B !important;
+  color: white !important;
+}
+.custom-delete-btn{
+  background-color: #d85e62 !important; 
+  border-color: #d85e62 !important;
+  color: white !important;
+}
+.custom-button {
+  background-color: #2c3930 !important; /* Change to your desired color */
+  color: white !important;
+  border: none !important;
+}
 .bg-primary-light {
   background-color: #cfe2ff;
   border-color: #cfe2ff;
@@ -202,8 +223,8 @@ h6 {
 }
 
 .bg-warning-light {
-  background-color: #fff3cd;
-  border-color: #fff3cd;
+    background-color: #fff3cd;
+    border-color: #fff3cd;
 }
 
 .bg-info-light {
@@ -468,7 +489,7 @@ h6 {
 
 .header-nav .nav-icon {
   font-size: 22px;
-  color: #a27b5c;
+  color: #012970;
   margin-right: 25px;
   position: relative;
 }
