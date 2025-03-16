@@ -31,3 +31,10 @@ editIphoneModal.addEventListener('show.bs.modal', function (event) {
     document.getElementById('edit-Storage').value = Storage;
     document.getElementById('edit-Price').value = Price;
 });
+
+var deleteIphoneModal = document.getElementById('deleteIphoneModal');
+deleteIphoneModal.addEventListener('show.bs.modal', function (event) {
+    var button = event.relatedTarget;
+    var id = button.getAttribute('data-id');
+    document.getElementById('delete-id').value = id;
+});
