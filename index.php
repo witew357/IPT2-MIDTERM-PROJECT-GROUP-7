@@ -5,6 +5,7 @@
 
   // Your PHP BACK CODE HERE
 
+  
 ?>
 
   <main id="main" class="main">
@@ -122,7 +123,7 @@
   </main><!-- End #main -->
 
   <!-- Modal For Create -->
-  <div class="modal fade" id="addIphoneModal"  tabindex="-1" aria-labelledby="addIphoneModalLabel" aria-hidden="true">
+<div class="modal fade" id="addIphoneModal"  tabindex="-1" aria-labelledby="addIphoneModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -156,8 +157,8 @@
               <option value="Desert Titanium">iPhone16ProMax-Desert Titanium</option>
               <option value="Natural Titanium">iPhone16ProMax-Natural Titanium</option>
             </select>
+          </div>
 
-            </div>
           <div class="form-group">
             <label for="Storage">Storage:</label>
             <select class="form-control" id="Storage" name="Storage" required>
@@ -173,7 +174,7 @@
               <option value="1TB">iPhone16ProMax 1TB</option>
             </select>
           </div>
-
+          
           <div class="form-group">
             <label for="Price">Price:</label>
             <select class="form-control" class="form-control" id="Price" name="Price" required>
