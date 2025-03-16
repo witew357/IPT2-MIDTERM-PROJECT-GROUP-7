@@ -67,7 +67,7 @@ if (!$result) {
                   <h5 class="card-title">Ordered List</h5>
                 </div>
                 <div>
-                  <button class="btn btn-sm mt-4 mx-3 custom-button">Add Order</button> 
+                  <button class="btn btn-sm mt-4 mx-3 custom-button" data-bs-toggle="modal" data-bs-target="#addIphoneModal">Add List</button> 
                 </div>
               </div>
 
