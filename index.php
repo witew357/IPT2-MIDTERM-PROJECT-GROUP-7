@@ -252,6 +252,34 @@ if (!$result) {
   </div>
 </div>
 
+<!-- Modal for Edit -->
+<div class="modal fade" id="editIphoneModal" tabindex="-1" aria-labelledby="editIphoneModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editIphoneModalLabel">Edit List</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="edit-iphone-form" method="post" action="database/update.php">
+          <input type="hidden" name="id" id="edit-id">
+          <input type="hidden" name="current_page" value="<?= $page ?>">
+          
+          <div class="mb-3">
+            <label for="edit-id-display" class="form-label">ID</label>
+            <p id="edit-id-display" class="form-control-plaintext"></p> <!-- Display ID here -->
+          </div>
+
+          <div class="mb-3">
+          <label for="edit-Variants" class="form-label">Variants</label>
+            <select class="form-control" id="Variants" name="Variants" required>
+              <option value="iPhone16">iPhone 16</option>
+              <option value="iPhone16Pro">iPhone 16 Pro</option>
+              <option value="iPhone16ProMax">iPhone 16 Pro Max</option>
+            </select>
+          </div>
+          
+
 <!--  Modal for Delete-->
 <div class="modal fade" id="deleteIphoneModal" tabindex="-1" aria-labelledby="deleteIphoneModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
