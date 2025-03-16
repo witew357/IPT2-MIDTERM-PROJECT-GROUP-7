@@ -10,20 +10,31 @@
 
   // Your PHP BACK CODE HERE
 
-    // Search functionality
-    $search = "";
-    if (isset($_GET['search'])) {
-        $search = $_GET['search'];
-        $sql = "SELECT * FROM iphone 
-                WHERE Variants LIKE '%$search%' 
-                OR Colors LIKE '%$search%' 
-                OR Storage LIKE '%$search%' 
-                OR Price LIKE '%$search%'
-                LIMIT $offset, $limit";
-    } else {
-        $sql = "SELECT * FROM iphone LIMIT $offset, $limit";
-    }
-  
+  // Search functionality
+  $search = "";
+if (isset($_GET['search'])) {
+    $search = $_GET['search'];    
+    $sql = "SELECT * FROM iphone 
+            WHERE Variants LIKE '%$search%' 
+            OR Colors LIKE '%$search%' 
+            OR Storage LIKE '%$search%' 
+            OR Price LIKE '%$search%'
+            LIMIT $offset, $limit";
+} else {
+    $sql = "SELECT * FROM iphone LIMIT $offset, $limit";
+}    
+
+// Debugging: Print the SQL query
+echo $sql; // This will help you see the actual query being executed
+
+$result = $conn->query($sql);
+
+// Check for errors in the query execution
+if (!$result) {
+  die("Query failed: " . $conn->error);
+}
+
+
 ?>
 
   <main id="main" class="main">
