@@ -3,6 +3,11 @@
   include('partials\sidebar.php');
   include('database\database.php');
 
+  // Pagination variables
+  $limit = 5; // Number of records per page
+  $page = isset($_GET['page']) ? (int)$_GET['page'] : 1; // Current page
+  $offset = ($page - 1) * $limit; // Offset for SQL query
+
   // Your PHP BACK CODE HERE
 
     // Search functionality
