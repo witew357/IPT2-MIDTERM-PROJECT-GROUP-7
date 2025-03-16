@@ -56,8 +56,8 @@ $search = isset($search) ? $search : "";
 ?>
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="index.php">
-        <input type="text" name="query" placeholder="Search" title="Enter search keyword" value="<?php echo htmlspecialchars($search); ?>">
+      <form class="search-form d-flex align-items-center" method="GET" action="index.php">
+        <input type="text" name="search" placeholder="Search" title="Enter search keyword" value="<?php echo htmlspecialchars($search); ?>">
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
       </form>
     </div><!-- End Search Bar -->
@@ -103,11 +103,10 @@ $search = isset($search) ? $search : "";
                 <span>Sign Out</span>
               </a>
             </li>
-
           </ul><!-- End Profile Dropdown Items -->
         </li><!-- End Profile Nav -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
       </ul>
     </nav><!-- End Icons Navigation -->
 
