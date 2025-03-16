@@ -12,5 +12,4 @@
     echo "Database Connection Successful.";
   }
 
-
 ?>
