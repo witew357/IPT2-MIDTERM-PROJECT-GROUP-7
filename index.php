@@ -174,7 +174,7 @@
               <option value="1TB">iPhone16ProMax 1TB</option>
             </select>
           </div>
-          
+
           <div class="form-group">
             <label for="Price">Price:</label>
             <select class="form-control" class="form-control" id="Price" name="Price" required>
@@ -197,6 +197,29 @@
     </div>
   </div>
 </div>
+ <!-- Modal for View -->
+<div class="modal fade" id="viewIphoneModal" tabindex="-1" aria-labelledby="viewIphoneModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="viewIphoneModalLabel">View iPhone</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Student Information Fields -->
+        <p><strong>ID:</strong> <span id="view-id"></span></p>
+        <p><strong>Variants:</strong> <span id="view-Variants"></span></p>
+        <p><strong>Colors:</strong> <span id="view-Colors"></span></p>
+        <p><strong>Storage:</strong> <span id="view-Storage"></span></p>
+        <p><strong>Price:</strong> <span id="view-Price"></span></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Include Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
