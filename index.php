@@ -34,6 +34,12 @@ if (!$result) {
   die("Query failed: " . $conn->error);
 }
 
+  // Get total records for pagination
+  $total_sql = "SELECT COUNT(*) as total FROM iphone";
+  $total_result = $conn->query($total_sql);
+  $total_row = $total_result->fetch_assoc();
+  $total_records = $total_row['total'];
+  $total_pages = ceil($total_records / $limit);
 
 ?>
 
