@@ -5,6 +5,19 @@
 
   // Your PHP BACK CODE HERE
 
+    // Search functionality
+    $search = "";
+    if (isset($_GET['search'])) {
+        $search = $_GET['search'];
+        $sql = "SELECT * FROM iphone 
+                WHERE Variants LIKE '%$search%' 
+                OR Colors LIKE '%$search%' 
+                OR Storage LIKE '%$search%' 
+                OR Price LIKE '%$search%'
+                LIMIT $offset, $limit";
+    } else {
+        $sql = "SELECT * FROM iphone LIMIT $offset, $limit";
+    }
   
 ?>
 
@@ -206,7 +219,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <!-- Student Information Fields -->
+        <!-- Information Fields -->
         <p><strong>ID:</strong> <span id="view-id"></span></p>
         <p><strong>Variants:</strong> <span id="view-Variants"></span></p>
         <p><strong>Colors:</strong> <span id="view-Colors"></span></p>
@@ -220,7 +233,7 @@
   </div>
 </div>
 
-<!-- Delete Student Modal -->
+<!--  Modal for Delete-->
 <div class="modal fade" id="deleteIphoneModal" tabindex="-1" aria-labelledby="deleteIphoneModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
