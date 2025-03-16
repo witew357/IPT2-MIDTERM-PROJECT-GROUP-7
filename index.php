@@ -298,6 +298,23 @@ if (!$result) {
             </select>
           </div>
 
+          <div class="mb-3">
+          <label for="edit-Storage" class="form-label">Storage</label>
+            <select class="form-control" id="Storage" name="Storage" required>
+              <option value="128GB">iPhone16 128GB</option>
+              <option value="256GB">iPhone16 256GB</option>
+              <option value="512GB">iPhone16 512GB</option>
+              <option value="128GB">iPhone16Pro 128GB</option>
+              <option value="256B">iPhone16Pro 256B</option>
+              <option value="512GB">iPhone16Pro 512GB</option>
+              <option value="1TB">iPhone16Pro 1TB</option>
+              <option value="256B">iPhone16ProMax 256B</option>
+              <option value="512GB">iPhone16ProMax 512GB</option>
+              <option value="1TB">iPhone16ProMax 1TB</option>
+            </select>
+          </div>
+
+
 <!--  Modal for Delete-->
 <div class="modal fade" id="deleteIphoneModal" tabindex="-1" aria-labelledby="deleteIphoneModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
