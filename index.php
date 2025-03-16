@@ -67,7 +67,7 @@ if (!$result) {
                   <h5 class="card-title">Ordered List</h5>
                 </div>
                 <div>
-                  <button class="btn btn-primary btn-sm mt-4 mx-3">Add Order</button>
+                  <button class="btn btn-sm mt-4 mx-3 custom-button">Add Order</button> 
                 </div>
               </div>
 
@@ -93,19 +93,19 @@ if (!$result) {
           <td><?= $row['Storage'] ?></td>
           <td><?= $row['Price'] ?></td>
           <td class="text-center">
-            <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#viewIphoneModal" 
+            <button class="btn custom-view-btn" data-bs-toggle="modal" data-bs-target="#viewIphoneModal" 
                     data-id="<?= $row['ID'] ?>"
                     data-Variants="<?= $row['Variants'] ?>"
                     data-Colors="<?= $row['Colors'] ?>"
                     data-Storage="<?= $row['Storage'] ?>"
                     data-Price="<?= $row['Price'] ?>">View</button>
-            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editIphoneModal" 
-                    data-id="<?= $row['ID'] ?>"
-                    data-Variants="<?= $row['Variants'] ?>"
-                    data-Colors="<?= $row['Colors'] ?>"
-                    data-Storage="<?= $row['Storage'] ?>"
-                    data-Price="<?= $row['Price'] ?>">Edit</button>
-            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteIphoneModal" data-id="<?= $row['ID'] ?>">Delete</button>
+            <button class="btn custom-edit-btn" data-bs-toggle="modal" data-bs-target="#editIphoneModal"
+                   data-id="<?= $row['ID'] ?>"
+                   data-Variants="<?= $row['Variants'] ?>"
+                   data-Colors="<?= $row['Colors'] ?>"
+                   data-Storage="<?= $row['Storage'] ?>"
+                   data-Price="<?= $row['Price'] ?>">Edit</button>
+            <button class="btn custom-delete-btn" data-bs-toggle="modal" data-bs-target="#deleteIphoneModal" data-id="<?= $row['ID'] ?>">Delete</button>
           </td>
         </tr>
       <?php endwhile; ?>
@@ -133,7 +133,6 @@ if (!$result) {
         </li>
     </ul>
 </nav>
-
       <!-- Modal -->
       <div class="modal fade" id="editInfo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editInfoLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
