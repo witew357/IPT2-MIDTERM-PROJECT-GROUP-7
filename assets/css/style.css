@@ -367,6 +367,7 @@ h6 {
   font-weight: 600;
 }
 
+
 /* Bordered Tabs */
 .nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
@@ -397,14 +398,16 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-  .logo {
-    width: 280px;
-  }
+.logo {
+  width: 280px;
+  text-decoration: none !important;
+ }
 }
 
 .logo img {
   max-height: 26px;
   margin-right: 6px;
+  
 }
 
 .logo span {
