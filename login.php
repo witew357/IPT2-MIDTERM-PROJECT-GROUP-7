@@ -31,7 +31,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/login.css" rel="stylesheet">
+  <link href="assets/css/log.css" rel="stylesheet">
   
   
 
@@ -57,7 +57,8 @@
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
                   <img src="assets/img/apple1.png" alt="">
-                  <span class="d-none d-lg-block">AppleZone Staff Log-in</span>
+                  <!--<span class="d-none d-lg-block">AppleZone Staff Log-in</span> -->
+                  <h5>AppleZone Staff Log-in</h5>
                 </a>
               </div><!-- End Logo -->
 

@@ -20,12 +20,12 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #2c3930;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #1f2822;
   text-decoration: none;
 }
 
@@ -274,7 +274,7 @@ h6 {
   padding: 20px 0 15px 0;
   font-size: 18px;
   font-weight: 500;
-  color: #012970;
+  color: #1f2822;
   font-family: "Poppins", sans-serif;
 }
 
@@ -414,6 +414,12 @@ h6 {
   font-size: 26px;
   font-weight: 700;
   color: #dcd7c9;
+  font-family: "Nunito", sans-serif;
+}
+.logo h5{
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3930;
   font-family: "Nunito", sans-serif;
 }
 
