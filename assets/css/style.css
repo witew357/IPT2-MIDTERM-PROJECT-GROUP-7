@@ -181,6 +181,10 @@ h6 {
 }
 
 /* Light Backgrounds */
+.form-group .btn-success{
+margin: 2px;
+}
+
 .pagination .page-item.active .page-link {
   background-color: #2c3930 !important;
   border-color: #2c3930 !important;
@@ -193,8 +197,8 @@ h6 {
 }
 
 .pagination .page-link:hover {
-  background-color: #1f2a25 !important;
-  border-color: #1f2a25 !important;
+  background-color: #394b3f !important;
+  border-color: #394b3f !important;
   color: white !important;
 }
 
@@ -203,20 +207,33 @@ h6 {
   border-color: #355E3B !important;
   color: white !important; 
 }
+.custom-view-btn:hover {
+  background-color: #388643 !important; 
+}
 .custom-edit-btn {
   background-color: #8A9A5B !important; 
   border-color: #8A9A5B !important;
   color: white !important;
+}
+.custom-edit-btn:hover {
+  background-color: #69754a !important; 
 }
 .custom-delete-btn{
   background-color: #d85e62 !important; 
   border-color: #d85e62 !important;
   color: white !important;
 }
+.custom-delete-btn:hover{
+  background-color: #c23b40 !important; 
+}
 .custom-button {
-  background-color: #2c3930 !important; /* Change to your desired color */
+  background-color: #2c3930 !important; 
   color: white !important;
   border: none !important;
+}
+.custom-button:hover {
+  background-color: #456950 !important; 
+
 }
 
 .bg-primary-light {
