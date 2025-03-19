@@ -475,7 +475,7 @@ h6 {
 .header .search-form input {
   border: 0;
   font-size: 14px;
-  color: #dcd7c9;
+  color: #000000;
   border: 1px solid rgba(1, 41, 112, 0.2);
   padding: 7px 38px 7px 8px;
   border-radius: 3px;
@@ -498,7 +498,7 @@ h6 {
 }
 
 .header .search-form button i {
-  color: #dcd7c9;
+  color:#2c3930;
 }
 
 /*--------------------------------------------------------------
