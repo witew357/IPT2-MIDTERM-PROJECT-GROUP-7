@@ -28,6 +28,8 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/register.css" rel="stylesheet">
+
 
     <style>
         /* Custom Styles */
@@ -38,12 +40,16 @@
             border-radius: 10px;
         }
         .btn-primary {
-            background-color: #007bff;
+            background-color: #2c3930;
             border: none;
             border-radius: 5px;
         }
         .btn-primary:hover {
-            background-color: #0056b3;
+            background-color: #1f2822;
+        }
+        .logo h5{
+            color: #2c3930 !important;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -59,7 +65,8 @@
                             <div class="d-flex justify-content-center py-4">
                                 <a class="logo d-flex align-items-center w-auto">
                                     <img src="assets/img/apple1.png" alt="Logo">
-                                    <span class="d-none d-lg-block">AppleZone Staff Signup</span>
+                                    <!--<span class="d-none d-lg-block">AppleZone Staff Signup</span>-->
+                                    <h5>AppleZone Staff Signup</h5>
                                 </a>
                             </div><!-- End Logo -->
 
