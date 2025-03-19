@@ -222,7 +222,7 @@ if (!$result) {
               <option value="₱90,480">iPhone16ProMax 1TB-₱90,480</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary mt-3">Add</button><br>
+          <button type="submit" class="btn btn-success mt-3">Add</button><br>
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </form>
       </div>
