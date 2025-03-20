@@ -3,11 +3,13 @@ session_start();
 include('database.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $id = $_POST['id'];
-    $Variants = $_POST['Variants'];
-    $Colors = $_POST['Colors'];
-    $Storage = $_POST['Storage'];
-    $Price = $_POST['Price'];
+    // Use isset() to avoid undefined variables
+    $id = isset($_POST['id']) ? trim($_POST['id']) : null;
+    $Variants = isset($_POST['Variants']) ? trim($_POST['Variants']) : null;
+    $Colors = isset($_POST['Colors']) ? trim($_POST['Colors']) : null;
+    $Storage = isset($_POST['Storage']) ? trim($_POST['Storage']) : null;
+    $Price = isset($_POST['Price']) ? trim($_POST['Price']) : null;
+
 
     // Check if required fields are not empty
     if (empty($id)  empty($Variants)  empty($Colors)  empty($Storage)  empty($Price)) {
