@@ -457,7 +457,9 @@ margin: 2px;
   cursor: pointer;
   color: #dcd7c9;
 }
-
+.header .toggle-sidebar-btn:hover {
+  color: #dfc98b;
+}
 .header .search-bar {
   min-width: 360px;
   padding: 0 20px;
@@ -539,6 +541,9 @@ margin: 2px;
 
 .header-nav .nav-profile {
   color: #dcd7c9;
+}
+.header-nav .nav-profile:hover {
+  color: #dfc98b;
 }
 
 .header-nav .nav-profile img {
