@@ -44,11 +44,14 @@
             border-radius: 5px;
         }
         .btn-primary:hover {
-            background-color: #1f2822;
+            background-color: #1e6434;
         }
         .logo h5{
             color: #2c3930 !important;
             font-weight: bold;
+        }
+        a:hover{
+            color:rgb(32, 124, 61);
         }
     </style>
 </head>
@@ -196,7 +199,7 @@
                 </div>
             </section>
             <div class="credits text-center">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://AppleZone.ph/">AppleZone Ph</a>
             </div>
 
         </div>
