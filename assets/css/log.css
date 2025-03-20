@@ -9,13 +9,13 @@ button, .btn-primary {
 }
 
 button:hover, .btn-primary:hover {
-    background-color: #1f2822 !important;
-    border: 2px solid #1f2822 !important;
+    background-color: #1e6434 !important;
+    border: 2px solid #1e6434 !important;
 }
 a {
     color: #2c3930 !important;
 }
 
 a:hover {
-    color: #1f2822 !important;
+    color: #228942 !important;
 }
