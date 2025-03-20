@@ -365,7 +365,7 @@ if (!$result) {
 
 
 <!-- Include Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://web-tech-midterm-project-g7.vercel.app/"></script>
 <!-- Include external JS file -->
 <script src="assets/js/modal.js"></script>
 
