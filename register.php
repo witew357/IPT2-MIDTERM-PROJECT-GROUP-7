@@ -199,7 +199,7 @@
                 </div>
             </section>
             <div class="credits text-center">
-                Designed by <a href="https://AppleZone.ph/">AppleZone Ph</a>
+                Designed by <a href="https://web-tech-midterm-project-g7.vercel.app/">AppleZone Ph</a>
             </div>
 
         </div>
